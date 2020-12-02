@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define N 4
+#define N 2
 
 int c;
 
@@ -101,3 +101,5 @@ int main()
 	
 	cout<<c;
 }
+
+// todo formulate a solution for a more general case when we have n x n board and k rooks. k<n x n
