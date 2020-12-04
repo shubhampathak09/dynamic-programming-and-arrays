@@ -21,7 +21,7 @@ int findways(int m,int n)
 			if(i==0||j==0)
 			dp[i][j]=1;
 			else
-			dp[i][j]=dp[i-1][j]+dp[i][j-1];
+			dp[i][j]=dp[i-1][j]+dp[i][j-1]; // + total
 		}
 	}
 	
@@ -33,5 +33,7 @@ int main()
 
 //int grid[3][3];	
 cout<<findways(4,4);	
+	
+//	((n+n)!/n!*n!)
 	
 }
