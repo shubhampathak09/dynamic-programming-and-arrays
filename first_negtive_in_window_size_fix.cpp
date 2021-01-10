@@ -51,7 +51,7 @@ int main()
 {
  //cout<<"Hello";
  
- int a[]={-4,3,-3,1,2,-6,2,2,1};
+ int a[]={-4,3,-3,1,2,-6};
  
  int n=sizeof(a)/sizeof(a[0]);
  

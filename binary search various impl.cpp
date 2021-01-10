@@ -147,5 +147,24 @@ while(left<=right)
  // 5 6 7  its inconvient in our case index will be -1 as no element exist that satisy the property
  seems wee need to have different impl of binary search depending on some property
  
+1 2 3 4 5 6 7
  
- 
+1 3 6 10 15 21 28
+
+3
+
+vector<int>input;
+
+int n;
+cin>>n;
+
+for(int i=0;i<n;i++)
+{
+	int a;
+	cin>>a;
+	input.push_back()
+}
+
+2  5 6 9 10 13
+
+b=7
