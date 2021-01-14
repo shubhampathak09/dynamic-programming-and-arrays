@@ -32,6 +32,9 @@ int main()
 		
 		}
 			curr_row.push_back(1);
+			
+			
+			
 			result.push_back(curr_row);
 		
 	}

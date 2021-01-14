@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// defintion for root node of tree
 
 struct node
 {
@@ -8,7 +9,7 @@ struct node
 	struct node*left;
 	struct node*right;
 	
-	node(int data)
+	node(int data)  // constructor initiaization
 	{
 		this->data=data;
 		left=NULL;
@@ -16,7 +17,7 @@ struct node
 	}
 };
 
-bool checkxor(int path[],int n)
+bool checkxor(int path[],int n)  // uitility function to check if xor sym equals zero
 {
 	
 	int ans=0;
@@ -29,7 +30,8 @@ bool checkxor(int path[],int n)
 	return ans==0;
 }
  
-void printp(int path[],int n)
+void printp(int path[],int n)  
+// print the path 
 {
 	for(int i=0;i<n;i++)
 	{
