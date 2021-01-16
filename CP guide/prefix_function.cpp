@@ -10,7 +10,8 @@ void cal_lcs(string s)
 	for(int i=1;i<n;i++)
 	{
 		
-		int l=prefix[i-1];
+		int l=prefi
+		x[i-1];
 		
 		while(l>0&&s[i]!=s[l])
 		{

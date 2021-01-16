@@ -18,7 +18,7 @@ int main()
 {
 	
 	string s="geeksforgeeks";
-	
+	// skeegrofskeeg
 	int n=s.length();
 	
 	string temp=rev(s,n);
