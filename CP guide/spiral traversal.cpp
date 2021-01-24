@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	
-	int a[3][6]={{1,2,3,4,5,6},{7,8,9,10,11,12},{13,14,15,16,17,18}};  
+	int a[3][6]={{1,2,3},{4,5,6},{7,8,9,16}};  
 																	  // 1 2 3 4 5 6 12 18 17 16 15 14 13 7 9  10 11 
 																	     
 	
@@ -14,7 +14,7 @@ int main()
 	// left,right top and bottom
 	
 	int left=0;
-	int right=5;
+	int right=2;
 	
 	int top=0;
 	int bottom=2;
