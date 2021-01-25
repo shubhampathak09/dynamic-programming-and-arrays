@@ -15,7 +15,7 @@
  	{
  		result=lis(a,i);
  		if(a[i-1]<a[n-1]&&result+1>max_endinghere)
- 		{
+ 	 	{
  			max_endinghere=1+result;
 		 }
 	 }
@@ -37,7 +37,7 @@
  	int val=lis(a,n);
  	
  	cout<<maxref;
- 	
+ 	// test
  	
  	
  }
