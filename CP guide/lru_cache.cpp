@@ -25,7 +25,7 @@ void hit(int n)
 	
 	else
 	{
-		cache.erase(mp[n]);
+		cache.erase(mp[n]); // this step is critical
 	}
 	cache.push_front(n);
 	mp[n]=cache.begin();
