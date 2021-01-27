@@ -6,6 +6,8 @@ using namespace std;
 // index of first element greater than given element
 
 // for queal we need to modify one condition
+
+// aplpications for elemt repeating that satisy some property
 int low_bound(int a[],int low,int high,int target)
 {
 	int ans=-1;
