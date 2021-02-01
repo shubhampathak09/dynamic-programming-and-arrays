@@ -15,7 +15,7 @@ bool issafe(int grid[9][9],int row,int col,int val)
 	
 	// 3 x 3 grid
 	int srow=row-row%3;
-	int yrow=col=col%3;
+	int yrow=col-col%3;
 	
 	for(int i=0;i<3;i++)
 	{
@@ -93,9 +93,14 @@ int main()
                        
                        
 bool result=solvesuduko(grid,0,0);
-
+if(result)
 printsol(grid);
+else
+cout<<"No sol";
+
 	
-	
+return 0;	
 	// fuck my life :p
+	
+	// fixed it
 }
