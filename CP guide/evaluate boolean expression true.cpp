@@ -84,6 +84,8 @@ int main()
 	
 	string s="T^F&T";
 	
+//	string s="T|T&F^T"
+	
 	int n=s.length();
 	
 	cout<<evaluate(s,0,n-1,true);
