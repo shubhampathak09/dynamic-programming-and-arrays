@@ -34,7 +34,7 @@ struct node*trimbinarytree(struct node*root,int low,int high)
    	delete(root);
    	return temp;
    }
-   else if(root->data<low)
+   if(root->data<low)
    {
    	struct node *temp=root->right;
    	delete(root);
