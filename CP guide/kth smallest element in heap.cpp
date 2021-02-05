@@ -5,6 +5,27 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void kthmax(int a[],int n,int k)
+{
+
+	// min heap
+	
+	priority_queue<int,vector<int>,greater<int>>pq;  //similar in Dijkstra min heap :P rember aug 2020
+	
+	for(int i=0;i<n;i++)
+	{
+		pq.push(a[i]);
+		
+		if(pq.size()>k)
+		{
+			pq.pop();
+		}
+	}
+	
+	cout<<pq.top();
+	return;
+}
+
 int main()
 {
 	
@@ -31,4 +52,12 @@ int main()
 	cout<<maxh.top();  // this will returen the kth smallest element in heap :p
 	
 	
+	cout<<endl;
+	
+	// kth largest element
+	
+	kthmax(a,n,k);
+	
+	
+	// great 
 }
