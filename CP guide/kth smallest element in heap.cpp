@@ -58,6 +58,4 @@ int main()
 	
 	kthmax(a,n,k);
 	
-	
-	// great 
 }
