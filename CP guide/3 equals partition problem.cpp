@@ -1,5 +1,5 @@
 // 3parition
-
+// test github
 #include<bits/stdc++.h>
 using namespace std;
 
