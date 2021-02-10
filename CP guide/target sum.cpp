@@ -22,7 +22,7 @@ for(int i=0;i<n;i++)
 	
 	if(mp.find(target-temp)!=mp.end())
 	{
-		cout<<mp[target-temp]<<i;
+		cout<<mp[target-temp]<<" "<<i;
 		break;
 	}
 	else

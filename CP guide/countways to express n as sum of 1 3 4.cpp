@@ -19,5 +19,5 @@ int countways(int n)
 int main()
 {
 	
-	cout<<countways(5);
+	cout<<countways(5);   
 }
