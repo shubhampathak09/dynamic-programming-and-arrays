@@ -1,5 +1,5 @@
 //
-//record breaking day  //google kickstart problem
+//record breaking day  //google kickstart proble
 
 #include<bits/stdc++.h>
 using namespace std;

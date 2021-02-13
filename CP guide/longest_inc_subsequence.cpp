@@ -1,5 +1,7 @@
 // longest increasing subseuence
 // orignal approach
+
+// incorrect approach
 #include<bits/stdc++.h>
 using namespace std;
 
