@@ -1,4 +1,4 @@
-// max sum subarray
+// max sum saubarray
 
 #include<bits/stdc++.h>
 using namespace std;

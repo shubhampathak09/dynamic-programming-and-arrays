@@ -51,6 +51,8 @@ void solve(int a[],int n)
 int main()
 {
 	
+	
+	
 	int a[]={2,1,5,6,2,3};
 	
 	int n=sizeof(a)/sizeof(a[0]);
