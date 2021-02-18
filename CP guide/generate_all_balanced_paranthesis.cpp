@@ -43,3 +43,6 @@ int main()
 		cout<<x<<endl;
 	}
 }
+
+//sahi hai boss
+// revn
