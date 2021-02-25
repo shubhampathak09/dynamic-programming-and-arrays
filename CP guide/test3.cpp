@@ -39,6 +39,6 @@ int main()
 	
 	int n=sizeof(a)/sizeof(a[0]);
 	
-	cout<<solve(a,n,100);
+	cout<<solve(a,n,10);
 	
 }
