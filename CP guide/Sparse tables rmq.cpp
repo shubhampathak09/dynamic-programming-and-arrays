@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main()
-{
+{                 //[0,8)
 	
 	vector<int>v={5,2,4,7,6,3,1,2};
 	
@@ -39,6 +39,7 @@ int main()
 		
 		cout<<minimum;
 	}
+//	[l,r)
 	
 	// infinite loop only for test purpose
 	
