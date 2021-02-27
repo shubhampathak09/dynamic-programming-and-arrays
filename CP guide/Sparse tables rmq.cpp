@@ -33,6 +33,7 @@ int main()
 		
 		cin>>l>>r;
 		
+		r++;
 		int log=log_table[r-l];
 		
 		int minimum=min(sparse_table[log][l],sparse_table[log][r-(1<<log)]);
