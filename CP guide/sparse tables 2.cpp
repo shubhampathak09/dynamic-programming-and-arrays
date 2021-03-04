@@ -6,7 +6,7 @@ int main()
 {
 	
 vector<int>a={2,1,4,0,6,7,1,3,9};
-
+// 
 vector<int>log_table(a.size()+1,0);
 
 for(int i=2;i<log_table.size();i++)
@@ -39,7 +39,7 @@ while(something)
 	int l,r;
 	cin>>l>>r;
 	
-	int log=log_table[r-l+1];
+	int log=log_table[r-l+1]; // o based indexing
 	
    int ans=min(sparse_table[log][l],sparse_table[log][r-(1<<log)+1]);
    
@@ -47,6 +47,9 @@ while(something)
 	
 }
 
+// My standard impemetation of sparse tables
+// practice probelms
+// SPOJ RMQSQ
 
 	
 }

@@ -99,3 +99,5 @@ int main()
 	
 	cout<<points.size();
 }
+
+
