@@ -19,7 +19,7 @@ for(int i=1;i<=n;i++)
 {
 	if(mp.find(s[i-1])!=mp.end())
 	{
-		int index=mp[s[i-1]]-1;
+		int index=mp[s[i-1]]-1;  // previous ocurrences will be at s[i-1] -1th charcget in string
 		dp[i]=2*dp[i-1]-dp[index];
 		mp[s[i-1]]=i; // update the last index
 	}
@@ -38,5 +38,5 @@ int main()
 {
 	
 	solve();
-	
+	// remove the empty subsequence bu doing ans-1 if required
 }
