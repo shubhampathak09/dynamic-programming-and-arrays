@@ -103,3 +103,6 @@ int main()
 	solve();
 	
 }
+
+
+// fml what the fuck did i dp in this

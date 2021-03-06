@@ -56,7 +56,7 @@ void solve()
 cout<<dp[n][target]<<endl;
 
     queue<node*>q;
-	q.push(node(n,target,""));
+	q.push(new node(n,target,""));
 	//q.pop();
 	
 	while(!q.empty())
