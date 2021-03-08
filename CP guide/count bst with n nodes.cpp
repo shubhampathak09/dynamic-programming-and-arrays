@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	
-int n=4;  // 14
+int n=4;   // 14
 
 vector<int>dp(n+1,0);
 
