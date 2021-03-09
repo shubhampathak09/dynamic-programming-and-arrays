@@ -72,3 +72,7 @@ int main()
 	}
 	
 }
+
+
+
+// fck you sangeet~!!!!!!!!!!!!!!!!!! and da people vrdn and actya
