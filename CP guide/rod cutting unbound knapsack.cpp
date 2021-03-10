@@ -30,3 +30,5 @@ int main()
 	cout<<dp[n][n];
 }
 
+
+//unbound knapsack
