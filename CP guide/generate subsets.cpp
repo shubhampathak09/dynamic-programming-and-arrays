@@ -1,4 +1,5 @@
-// pseduo code henerating all subsets iterative
+// p2
+seduo code henerating all subsets iterative
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -24,5 +25,28 @@ int main()
 	}
 	
 	
+	
+	
+	
+	
+	/*
+	
+	0 1 2 3 
+	{}
+	0  x x x x 2 2 2 2 =16 
+	1  0 0 0 0
+	   0 0  1 0 
+	2 
+	4
+	
+	
+	0 0 0 0
+	0 0 0 1
+	0 0 1 0
+	0 1 0 0
+	1 0 0 0
+	0 0 1 1
+	}
+	*/
 	
 }
