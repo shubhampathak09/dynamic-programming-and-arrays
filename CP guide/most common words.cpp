@@ -61,6 +61,7 @@ int main()
 	
 	solve(paragraph,bad);
 	
+	
 }
 
 
