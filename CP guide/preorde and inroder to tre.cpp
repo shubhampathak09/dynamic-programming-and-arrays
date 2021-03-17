@@ -31,12 +31,13 @@ int getin(int val,int in[],int start,int end)
 }
 struct node*createtree(int preorder[],int inorder[],int start,int end)
 {
+//	static int preindx=0;
 	if(start>end)
 	{
 		return NULL;
 	}
 	
-	struct node*tnode=new node(preorder[preindx]);
+	struct node*tnode=new node(preorder[preindx++]);
 	if(start==end)
 	{
 		return tnode;
@@ -66,7 +67,7 @@ int n=sizeof(in)/sizeof(in[0]);
 
 struct node*root=createtree(pre,in,0,n-1);	
 
-cout<<root->data;
+//cout<<root->data;
 
 inorder(root);	
 	
