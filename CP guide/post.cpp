@@ -19,7 +19,7 @@ struct node
 
 int n;
 
-int postindex=n;
+//int postindex=n;
 
 int seain(int x,int in[],int st,int en)
 {
@@ -34,10 +34,10 @@ struct node*construct(int pos[],int in[],int st,int en)
 {
 
 
-if(st<en)
+if(st>en)
 return NULL;
 
-struct node*tnode=new node(pos[postindex--]);
+struct node*tnode=new node(pos[n--]);
 
 if(st==en)
 {
@@ -45,23 +45,40 @@ if(st==en)
 	}
 int ei=seain(tnode->data,in,st,en);
 	
-tnode->left=construct(pos,in,ei-1,st);
-tnode->right=construct(pos,in,en,ei+1);
+tnode->right=construct(pos,in,ei+1,en);
+tnode->left=construct(pos,in,st,ei-1);
 return tnode;		
+}
+
+void inorder(struct node*root)
+{
+	if(root==NULL)
+	return;
+
+	inorder(root->left);
+		cout<<root->data<<" ";
+	inorder(root->right);	
 }
 
 int main()
 {
 	
-n=3;
+n=2;
 int in[]={2,1,3};
 
 int pos[]={2,3,1};	
 
+struct node*root=construct(pos,in,0,2);
 
-struct node*root=construct(pos,in,n-1,0);
 
-cout<<root->data;	
+//cout<<root->data;
+
+inorder(root);
+//cout<<postindex;
+
+//struct node*root=construct(pos,in,n-1,0);
+
+//cout<<root->data;	
 
 
 //fuck it
