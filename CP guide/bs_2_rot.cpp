@@ -33,3 +33,7 @@ int main()
 	
 	cout<<bs();
 }
+/*
+for(int x=0;x<=5;x--)
+if(((x-1)+5)%5>0)
+*/

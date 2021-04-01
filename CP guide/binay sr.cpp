@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	
-	int a[]={1,3,5,5,5,5,67,123,125};
+
 	
 	int n=sizeof(a)/sizeof(a[0]);
 	
