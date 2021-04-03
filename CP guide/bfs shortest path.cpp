@@ -57,13 +57,14 @@ void solve()
 	
 	cout<<dist;
 	
-	cout<<endl;
+	cout<<endl; 
 	
 	cout<<"The number of gear switches needed is.."<<"\t"<<dist-1;
 	
 	cout<<endl;
 }
 
+//ok
 int main()
 {
 	
