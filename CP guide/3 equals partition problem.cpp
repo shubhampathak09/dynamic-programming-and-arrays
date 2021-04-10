@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+//S
 bool partition(int a[],int sum)
 {
 	int n=sizeof(a)/sizeof(a[0]);
