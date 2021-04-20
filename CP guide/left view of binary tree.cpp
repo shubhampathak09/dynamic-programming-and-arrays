@@ -65,5 +65,5 @@ root->right->right->right=new node(6);
 leftview(root);
 
 
-	
+// 1 2 4 6	
 }

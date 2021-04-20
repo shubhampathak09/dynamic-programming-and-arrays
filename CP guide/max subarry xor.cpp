@@ -112,4 +112,6 @@ int main()
 	
 	
 	cout<<ans;
+	
+	//o(nlog(maxelemnt))
 }
