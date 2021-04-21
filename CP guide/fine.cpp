@@ -3,11 +3,18 @@
 using namespace std;
 
 
-class trienode
+struct trienode
 {
-	public:
+	
 	trienode*left;
 	trienode*right;
+	
+	trienode()
+	{
+		left=NULL;
+		right=NULL;
+		
+	}
 };
 
 
@@ -21,7 +28,7 @@ void insert(int n,trienode*root)
 		
 		if(b==0)
 		{
-			if(!curr->left)
+			if(curr->left==NULL)
 			{
 				curr->left=new trienode();
 
@@ -42,7 +49,7 @@ void insert(int n,trienode*root)
 
 int finmax(trienode*root,int *arr,int n)
 {
-		int max_xor=INT_MIN;
+	int max_xor=INT_MIN;
 	for(int i=0;i<n;i++)
 	{
 	int value=arr[i];
@@ -104,3 +111,5 @@ int main()
 cout<<res;	
 	
 }
+
+// i used struct trie *curr=root before the for(i=0;i<n;i++) loop that looks like created an issue

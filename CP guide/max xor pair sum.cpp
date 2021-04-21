@@ -48,11 +48,12 @@ void insert(struct trienode*head,int n)
 int findmax_xorpair(int a[],int n,struct trienode*head)
 {
 	
-	struct trienode*curr=head;
+	
 	
 	int max_xor=INT_MIN;
 	for(int i=0;i<n;i++)
 	{
+		struct trienode*curr=head;
 		int val=a[i];
 		
 		int curr_xor=0;
