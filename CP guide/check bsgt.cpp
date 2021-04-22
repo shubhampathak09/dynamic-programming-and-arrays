@@ -43,10 +43,10 @@ bool checkbst(struct node*root)
 	if(root==NULL)
 	return 0;
 	
-	if(root->left!=NULL&&root->data>maxval(root->left))
+	if(root->left!=NULL&&root->left->data>minval(root->left))
 	return 0;
 	
-	if(root->right!=NULL&&root->data<minval(root->right))
+	if(root->right!=NULL&&root->right->data<maxval(root->right))
 	return 0;
 	
 	if(!checkbst(root->left)||!checkbst(root->right))
@@ -60,9 +60,12 @@ int main()
 struct node*root=new node(4);
 root->left=new node(2);
 root->right=new node(5);
-root->left->left=new node(1);
-root->left->right=new node(3);
+ 
 
 cout<<checkbst(root);
-	
+
+
+//cout<<minval(root);
+
+//cout<<maxval(root);	
 }
