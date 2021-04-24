@@ -1,4 +1,6 @@
 // largest ares rectrangular su matrux
+// larget rect ending at i ,j
+// min(i,j+1,(i+1,j),(i+1,j+1))
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -13,6 +13,7 @@ if(left==right)
 {
 	seg[si]=a[left];
 	return;
+	
 	}	
 int mid=(left+right)/2;
 	
@@ -39,11 +40,11 @@ int query(int si,int rl,int rr,int left,int right)
 int main()
 {
 	
-	a={2,3,4,5,6,1};
+	a={4,5,6,7,8};
 	
-	int n=6;
+	int n=5;
 	
 	build(0,0,n-1);
 	
-	cout<<query(0,2,3,0,n-1);
+	cout<<query(0,0,4,0,n-1);
 }
