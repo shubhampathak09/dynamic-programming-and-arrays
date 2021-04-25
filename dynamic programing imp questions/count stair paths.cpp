@@ -28,5 +28,5 @@ int main()
 	
 	memset(dp,-1,sizeof(dp));
 	
-	cout<<countpaths(4);
+	cout<<countpaths(10);
 }
