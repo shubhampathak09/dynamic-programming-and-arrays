@@ -55,3 +55,5 @@ int main()
    cout<<ans<<" "<<ans1;
 }
 // practice variations on fibonacci dp
+
+

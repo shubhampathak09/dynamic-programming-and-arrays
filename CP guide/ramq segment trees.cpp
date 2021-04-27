@@ -38,6 +38,24 @@ int query(int segindex,int left,int right,int ql,int qr)
 	
 }
 
+void updated(int segindex,int sl,int sr,int diff,int pos)
+{
+	
+	
+	if(pos>sr||pos<sl)
+	return;
+	
+	seg[si]+=diff;
+	
+	if(sl!=sr)
+    {
+    	
+    	mid=(sl+sr)/2;
+    	update(2*segindex+1,sl,mid,diff,pos);
+    	update(2*seginex+2,mid+1,sr,diff,pos);
+	}
+}
+
 int main()
 {
 	
@@ -50,6 +68,11 @@ int main()
 	cout<<query(0,0,8,0,4)<<endl;
     cout<<query(0,0,8,4,7)<<endl;
     cout<<query(0,0,8,7,8)<<endl;
+    
+    int pos=3;  // 0->6
+    int val=6;
+    
+    update(0,0,n-1,a[pos]-val,pos)
     
 }
 
