@@ -28,7 +28,9 @@ for(int i=n-2;i>=0;i--)
 		if(i+j<n)
         mn=min(dp[i+j],mn);		
 	}
+	if(mn!=INT_MAX)
 	dp[i]=mn+1;
+	else dp[i]=INT_MAX;
 	}	
 	
 	cout<<dp[0];
