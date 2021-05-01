@@ -40,4 +40,4 @@ int main()
 	
 	
 	cout<<solve(a,n);
-}
+}s
