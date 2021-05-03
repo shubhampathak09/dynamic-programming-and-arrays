@@ -11,6 +11,9 @@ void dfs(int src,int parent)
 {
 	bool check=1;
 	
+	if(mp[src]==mp[parent])
+	check=0;
+	
 	for(auto x:g[src])
 	{
 		
@@ -19,13 +22,15 @@ void dfs(int src,int parent)
 		
 		dfs(x,src);
 		
-		if(mp[x]==mp[src])
+	/*	if(mp[x]==mp[src])
 		{
 			check=0;
-			spset[x]=spset[src]=0;
+			spset[x]=0;
 		}
+		*/
+			spset[x]=check;
 	}
-	spset[src]=check;
+
 }
 
 int main()
