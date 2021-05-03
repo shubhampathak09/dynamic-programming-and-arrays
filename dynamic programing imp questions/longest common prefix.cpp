@@ -50,7 +50,7 @@ bool countchild(struct trie*node,int &index)
 	}
 	if(cnt==1)
 	{
-    cout<<index;	
+   // cout<<index;	
 	return true;
 }
 	return false;
