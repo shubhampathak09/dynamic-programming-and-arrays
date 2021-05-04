@@ -28,9 +28,8 @@ void dfs(int src,int parent)
 			spset[x]=0;
 		}
 		*/
-			spset[x]=check;
 	}
-
+	spset[src]=check;
 }
 
 int main()

@@ -1,4 +1,4 @@
-// knights tour problem 
+// knnights tour problem 
 // print the order in whihc knight visits the grdi
 
 #include<bits/stdc++.h>
