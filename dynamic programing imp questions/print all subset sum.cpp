@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int dp[101][101];
+//int dp[101][101];
 
 
 void subsetsum(int a[],int n,int sum)
