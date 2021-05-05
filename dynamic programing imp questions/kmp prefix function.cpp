@@ -38,7 +38,7 @@ int main()
 	
 	// kmp prefix function test
 	
-	string s="abcabbbc";
+	string s="abacaba";
 	
 	int n=s.length();
 	
