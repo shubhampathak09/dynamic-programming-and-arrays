@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// intutive?
 bool solve(int a[],int n)
 {
 	
