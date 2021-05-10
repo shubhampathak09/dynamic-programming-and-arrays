@@ -52,4 +52,4 @@ int main()
 	
 }
 
-//fuck
+//fucko

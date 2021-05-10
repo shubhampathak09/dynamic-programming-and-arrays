@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// intutive?
+// intutive?gu
 bool solve(int a[],int n)
 {
 	

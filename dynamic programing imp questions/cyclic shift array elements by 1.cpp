@@ -9,7 +9,7 @@ int main()
 	
 	int a[]={1,2,5,1,0,9};
 	
-	cout<<endl;
+//	cout<<endl;
 	
 	int n=sizeof(a)/sizeof(a[0]);
 	
