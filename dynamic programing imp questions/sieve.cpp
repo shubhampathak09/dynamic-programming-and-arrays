@@ -31,7 +31,7 @@ void sieve()
 	cout<<cnt;
 }
 
-
+// o(log(log(n))
 int main()
 {
 	
