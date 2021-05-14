@@ -15,4 +15,4 @@
 //anagaram or not
 //and java practice querstions
 /// fountains
-
+// to do tsp bruteforce is use next_permutation approach first will work up n=7 later bit mask dp for n=20 or higher still np hard
