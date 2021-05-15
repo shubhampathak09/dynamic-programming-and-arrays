@@ -27,8 +27,8 @@ int maxpath(struct node*root,int &res)
 	
 	int temp=max(max(left,right)+root->data,root->data); // l or r can be negitive and we need to find max path sum from any node to any node in binary tree
 	
-//	int temp=max(left,right)
-//	int ans=max(temp,max(left,right)+root->data)
+//	int temp=max(left,right)+root->data
+//	int ans=max(temp,left
 	int ans=max(temp,left+right+root->data);
 	res=max(ans,res);
 	return ans;
