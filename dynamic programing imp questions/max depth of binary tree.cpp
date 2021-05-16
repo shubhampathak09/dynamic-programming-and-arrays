@@ -26,7 +26,11 @@ int maxdepth(struct node*root)
 	int ledepth=maxdepth(root->left);
 	int ridepth=maxdepth(root->right);
 	
-	return max(ledepth,ridepth)+1;
+//	return max(ledepth,ridepth)+1;
+if(ledepth>ridepth)
+return ledepth+1;
+else
+return ridepth+1;
 }
 }
 
