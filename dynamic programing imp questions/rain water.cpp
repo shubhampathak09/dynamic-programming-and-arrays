@@ -9,6 +9,11 @@ int rainwater(vector<int>a)
 	
 	int n=a.size();  //{2,0,2}
 	
+	if(n<2)
+	return 0;
+	
+	
+	
 	int left[n];
 	int right[n];
 	
