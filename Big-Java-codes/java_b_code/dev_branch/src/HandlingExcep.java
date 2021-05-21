@@ -30,6 +30,15 @@ public class HandlingExcep {
   //      unchecked exception->null pointer exception
 
 
+        // whenever an exception occurs
+        // exception name , description and  stack trace
+
+
+  /*      exception can be handled using :-
+                1. try catch finally'
+                 throw
+                 throws        '
+                 */
 
     }
 }
