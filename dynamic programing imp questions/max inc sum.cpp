@@ -48,5 +48,5 @@ int main()
 
 
    cout<<max_inc(a,n);
-   	
+   n	
 }
