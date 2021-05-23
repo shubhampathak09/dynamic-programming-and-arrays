@@ -38,6 +38,11 @@ class Test2 {
         {
             e.printStackTrace();
         }
+        try {
+            rw.saveFile();
+        }catch (FileNotFoundException e){
+            e.printStackTrace();
+    }
 
 
         System.out.println("hello");
