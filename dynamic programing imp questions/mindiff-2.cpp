@@ -54,4 +54,8 @@ int main()
 	cout<<res;
 	cout<<endl;
 	cout<<a[x]<<" "<<b[y];
+	
+	
+	//o(n) +o(n(log(n))
+	
 }
