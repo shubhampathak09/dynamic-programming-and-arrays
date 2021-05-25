@@ -23,7 +23,7 @@ int main()
 	
 	
 	vector<box>v={{2,3,1},{4,1,2},{5,6,3},{4,2,3},{5,7,2}};
-	
+    	
 	int n=v.size();
 	
 	vector<box>res(3*n);  // need to intidalize vector with some size;
@@ -106,3 +106,8 @@ int main()
 			 
 			 cout<<ovmax;  	 	
 }
+
+
+
+// fml
+

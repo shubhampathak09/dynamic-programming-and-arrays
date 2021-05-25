@@ -25,3 +25,15 @@ int main()
 	}
 	
 }
+
+
+
+// search in a rwo col sorted matrix
+// segregate 0 1 2
+//print anagrams rtogether
+//wave array
+//mirror tree
+//egg drop
+//sort a stack
+//squares in n*n chessboard
+
