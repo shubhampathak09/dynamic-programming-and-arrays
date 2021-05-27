@@ -31,3 +31,5 @@ int main()
 	
 }
 // coool string::npos
+
+// string npos
