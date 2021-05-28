@@ -26,7 +26,7 @@ int main()
 	}
 	else
 	{
-		cout<<"they are not rotations of each other";
+		cout<<"theyu are not rotations of each other";
 	}
 	
 }
