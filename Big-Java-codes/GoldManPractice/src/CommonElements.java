@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.*;
 public class CommonElements {
 	
-	
+	// singlr pass use hmap.remove();
 	public static void solve()
 	{
 		
