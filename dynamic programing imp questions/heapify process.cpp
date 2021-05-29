@@ -20,9 +20,12 @@ void heapify(int a[],int n,int i)
 	}
 	
 	if(largest!=i)
+	{
+	
 	swap(a[largest],a[i]);
 	
 	heapify(a,n,largest);
+}
 }
 
 void heapsort(int a[],int n)
@@ -41,6 +44,17 @@ void heapsort(int a[],int n)
 	
 }
 
+void printarray(int a[],int n)
+{
+	
+	
+	for(int i=0;i<n;i++)
+	{
+		cout<<a[i]<<" ";
+		
+	}
+}
+
 int main()
 {
 	
@@ -49,7 +63,9 @@ int main()
 	int n=sizeof(a)/sizeof(a[0]);
 	
 	heapsort(a,n);
-	
+   
+   
+   printarray(a,n);	
 }
 
 //fucko
