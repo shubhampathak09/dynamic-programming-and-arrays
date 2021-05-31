@@ -19,16 +19,16 @@ public class SortStack {
 	public static void sortStack(Stack<Integer>st)
 	{
 		
-		 
-		if(!st.isEmpty())
-		{
+		if(st.size()==1)
+			return;
+		
 		int temp=st.pop();
 		//st.pop();
 		sortStack(st);
 		insert(st,temp);
 		
-		//return;
-		}
+		return;
+		
 	}
 	
 	public static void main(String[] args)
