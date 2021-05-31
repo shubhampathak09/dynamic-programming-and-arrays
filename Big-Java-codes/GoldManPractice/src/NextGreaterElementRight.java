@@ -49,3 +49,11 @@ public class NextGreaterElementRight {
 		}
 	}
 }
+
+
+// reverse a stack
+// delete middle in stack
+/// sort a atack
+// sort an array
+// sport aarray
+//tower hanoi
